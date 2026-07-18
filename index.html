@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+   <div class="logo">
+        <a href="#home">My Portfolio</a>
+      </div>
+
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="extra-nav">
+        <button>Get In Touch</button>
+      </div>
+
+      <div id="menu" class="hamburger-menu">
+        <svg
+          width="35px"
+          height="35px"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M4 18L20 18"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 12L20 12"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+          <path
+            d="M4 6L20 6"
+            stroke="#ffffff"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile" class="mobile-nav">
+        <div id="close-mobile" class="close">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 32 32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #ffffff;
+                  stroke-linecap: round;
+                  stroke-linejoin: round;
+                  stroke-width: 2px;
+                }
+              </style>
+            </defs>
+
+            <title />
+
+            <g id="cross">
+              <line class="cls-1" x1="7" x2="25" y1="7" y2="25" />
+
+              <line class="cls-1" x1="7" x2="25" y1="25" y2="7" />
+            </g>
+          </svg>
+        </div>
+        <ul>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#skill">Skill</a></li>
+          <li><a class="nav-link" href="#project">Project</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="content">
+        <h1 class="hero-name" data-aos="fade-down">JADE BUSTAMANTE</h1>
+          <h1 data-aos="zoom-in-up">
+          I'm a BSIT student at Davao del Norte State College, passionate about web development and how computer systems work.
+          </h1>
+          <button data-aos="zoom-out"><span>Show my Work</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            About Me
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="images/jade.jpg" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1>Jade</h1>
+                <div class="role">
+                  <h2>BSIT STUDENT</h2>
+                </div>
+              </div>
+              <p>
+              Hi, I'm Jade Bustamante, an aspiring software developer from the Philippines with a passion for technology and continuous learning. I'm currently studying Information Technology while building practical skills through personal projects and hands-on experience. <br />
+              <br />Beyond coding, I'm committed to self-improvement through fitness, discipline, and lifelong learning. I believe that consistency and curiosity are the foundation of both personal growth and a successful career in tech.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Skill
+          </h1>
+
+          <div class="skills" data-aos-delay="500">
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="images/vecteezy_the-html5-logo-with-the-number-5-in-the-center_66386005.png" alt="html" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="images/stylized-3d-css-icon-side-view-free-png.png" alt="css" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="images/javascript-logo-javascript-icon-transparent-free-png.webp" alt="javascript" />
+            </div>
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="images/java-programming-language-java-logo-free-png.webp  " alt="java" />
+            </div>  
+            <div data-aos="zoom-in-down" class="skill-box">
+              <img src="images/python-icon-transparent-background-free-png.webp" alt="python" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Project
+          </h1>
+
+          <div class="projects">
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="images/Screenshot (87)1.png" alt="project" />
+
+              <div class="description">
+                <h1>Auto Clipper</h1>
+                <p>
+                 Auto Clipper scans a video's audio for silent gaps and uses the speech between them as natural clip boundaries, then cuts and exports each qualifying segment as its own video file. It works either through a command-line script or a simple web page where you upload a file or paste a video link.
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section id="contact" class="contact">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Contacts
+          </h1>
+
+           <section id="contact" class="contact">
+      <div class="container">
+        <div class="content">
+            <div class="contact-links">
+             <a href="https://mail.google.com/mail/u/3/" target="_blank">📧 jadebustamante4@gmail.com</a>
+             <a href="https://github.com/emperorJ3de" target="_blank">GitHub</a>
+            <a href="https://www.facebook.com/jade.bustamante.967" target="_blank">Facebook</a>
+            
+        </div>
+    <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2026 Jade T. Bustamante  | BSIT Student | Davao del Norte State College</p>
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
